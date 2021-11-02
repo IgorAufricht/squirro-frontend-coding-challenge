@@ -1,0 +1,49 @@
+@import '../variables';
+
+.alert {
+  color: $color1;
+  border-radius: 5px;
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  padding: 20px;
+  z-index: 9999;
+
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+
+  visibility: hidden;
+  opacity: 0;
+
+  p {
+    margin: 0;
+  }
+
+  button.close {
+    color: $color1;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 2px;
+    font-weight: bold;
+  }
+}
+
+.alert-error {
+  background: $color-error;
+}
+
+.alert-success {
+  background: $color-success;
+}
+
+.alert-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.alert-fadeout {
+  transition: visibility 0s 2s, opacity 2s linear;
+}

@@ -1,0 +1,19 @@
+@import '../variables';
+
+.star-rating {
+  button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 2px;
+    font-size: 1.5em;
+  }
+
+  .off {
+    color: $color3;
+  }
+  .on {
+    color: $color5;
+  }
+}

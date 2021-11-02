@@ -1,0 +1,9 @@
+@import '../variables';
+
+.country-flag {
+  object-fit: cover;
+  width: 30px;
+  height: 20px;
+
+  border: 1px solid $color4;
+}

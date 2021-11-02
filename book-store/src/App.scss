@@ -1,0 +1,22 @@
+@import 'variables';
+
+.header {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  background-color: $color5;
+  color: $color1;
+
+  h1 {
+    max-width: $content-width;
+    margin: 0 auto;
+    padding: 25px 20px;
+  }
+}
+
+.content {
+  max-width: $content-width;
+  margin: 0 auto;
+  padding: 0 20px;
+}
